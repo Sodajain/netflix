@@ -1,0 +1,108 @@
+.loginScreen {
+    position : relative;
+    height : 100%;
+    background : url("https://i.imgur.com/HiHNvVt.png") center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__gradient {
+    width: 100%;
+    z-index: 1; 
+    height : 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0.8) 0,
+        rgba(0,0,0) 60%,
+        rgba(0,0,0.8) 100%,
+    );
+}
+
+
+.loginScreen_logo {
+    position : fixed;
+    left : 0;
+    width  :150px;
+    object-fit: contain;
+    padding-left : 20px;
+}
+
+.loginScreen_button{
+    position: fixed;
+    right: 20px;
+    top : 20px;
+    padding : 10px 20px;
+    font-size : 1rem;
+    color : yellow;
+    BORDER : NONE;
+    cursor: pointer;
+    background-color: palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.loginScreen_body {
+    position: absolute;
+    top : 30%;
+    margin-left: 60px;
+    padding-left: 20%;    
+    margin-right: auto;
+    text-align: center;
+    z-index : 1;
+    color : #fff;
+    padding: 20px;
+    left : 0;
+    right : 0;
+}
+ 
+.loginScreen_body > h1 {
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen_body > h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.loginScreen_body > h3 {
+   
+    font-weight: 100;
+   
+}
+
+.loginScreen_input {
+
+   padding: 10px;
+   padding-left: 30%;
+   outline-width: 0; 
+   height: 30px;
+   border-color: palevioletred ;
+   border-radius: 0.1px;
+   border: palevioletred;
+   border-width: 0.1cm;
+   width: 40%;
+   border: none;
+   max-width: 800px;
+   text-align: center;
+  
+
+}
+
+.loginScreen_getStarted {
+
+
+    font-size : 1rem;
+    padding: 16px 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 50px;
+    color : yellow;
+    BORDER : NONE;
+    cursor: pointer;
+    background-color: palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
